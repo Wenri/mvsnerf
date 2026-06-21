@@ -130,6 +130,7 @@ dmypy.json
 
 # dataset
 xgaze/
+ds/
 
 # logs
 results/

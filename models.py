@@ -1,4 +1,5 @@
 import torch
+import torchvision
 torch.autograd.set_detect_anomaly(True)
 import torch.nn as nn
 from utils import *
