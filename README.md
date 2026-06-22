@@ -18,6 +18,45 @@ pip install pytorch-lightning==1.3.5 imageio pillow scikit-image opencv-python c
 ```
 
 
+## Datasets / Download
+
+The datasets are mirrored as **GitHub Release assets** on this fork and can be reconstructed
+into `ds/` with the bundled helper (standard library only, no extra installs):
+
+```
+python tools/download_data.py --list            # show datasets, tags, sizes
+python tools/download_data.py --all             # fetch everything into ds/
+python tools/download_data.py --dataset llff    # one dataset
+python tools/download_data.py --scene scan23    # only the part(s) holding a scene
+```
+
+| Dataset (`--dataset`) | Release tag | Size | Extracts to | Used by |
+|---|---|---|---|---|
+| `mvs-training` | `data-mvs-training` | ~19 GiB | `ds/mvs_training/dtu/` | DTU generalization + `dtu_ft` (Rectified/Depths/Cameras) |
+| `depths-raw` | `data-depths-raw` | ~58 GiB | `ds/Depths/` | DTU depth GT (plain `scanN`) |
+| `llff` | `data-llff` | ~1.9 GiB | `ds/llff/nerf_llff_data/` | LLFF finetuning |
+| `rs-dtu` | `data-rs-dtu` | ~1.3 GiB | `ds/rs_dtu/` (+ `ds/dtu_example.zip`) | DTU test scans / example |
+| `dtu` | `data-dtu` | ~0.7 GiB | `ds/dtu/` | small 3-scene DTU subset |
+
+> **Important:** the generalizable DTU model (`--dataset_name dtu`) and DTU finetuning
+> (`--dataset_name dtu_ft`) read images from `Rectified/scanN_train/` but depths from
+> `Depths/scanN/` (un-suffixed). The `mvs-training` mirror ships only `scanN_train` depths, so
+> the plain `Depths/scanN/` come from `depths-raw` — fetch **both**:
+> `python tools/download_data.py --dataset mvs-training --dataset depths-raw` (then e.g.
+> `--datadir ds/mvs_training/dtu/scan1` for `dtu_ft`).
+
+Assets are grouped to minimize pieces: a dataset is a single archive when it fits under
+GitHub's 2 GiB/asset limit, otherwise whole scenes are bundled into the fewest ≤1.95 GiB parts
+(no file is ever split across parts), each sha256-verified on download. Publishing is done with
+`tools/publish_datasets.py` (needs the `gh` CLI); the asset map is `tools/data_manifest.json`.
+
+Upstream sources these mirrors derive from: DTU training data
+([Google Drive](https://drive.google.com/file/d/1eDjh-_bxKKnEuz5h-HXS7EDJn59clx6V/view) /
+[MVSNet](https://github.com/YoYo000/MVSNet)); `Depths_raw`
+([CasMVSNet](https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/cascade-stereo/CasMVSNet/dtu_data/dtu_train_hr/Depths_raw.zip));
+`nerf_llff_data` ([Google Drive](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1));
+`dtu_example.zip` ([Hugging Face apchen/MVSNeRF](https://huggingface.co/apchen/MVSNeRF)).
+
 ## Training
 Please see each subsection for training on different datasets. Available training datasets:
 

@@ -1,0 +1,3497 @@
+{
+  "asset_url_template": "https://github.com/{repo}/releases/download/{tag}/{asset}",
+  "datasets": {
+    "depths-raw": {
+      "assets": [
+        {
+          "bytes": 2093048984,
+          "format": "zip-store",
+          "name": "depths_raw_part01.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan100_train",
+            "scan101_train",
+            "scan102_train",
+            "scan104_train",
+            "scan110_train",
+            "scan111_train",
+            "scan112_train",
+            "scan113_train",
+            "scan16_train",
+            "scan17",
+            "scan18_train",
+            "scan21",
+            "scan23",
+            "scan3_train",
+            "scan69_train",
+            "scan70_train",
+            "scan71_train",
+            "scan73",
+            "scan85_train",
+            "scan86_train",
+            "scan87_train",
+            "scan88_train",
+            "scan91_train",
+            "scan96_train",
+            "scan99_train"
+          ],
+          "sha256": "03257c3ba91ee400314468528e09b3661e025f4ae1678cee89fcda71511f4e7d",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 2091264781,
+          "format": "zip-store",
+          "name": "depths_raw_part02.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan106_train",
+            "scan107_train",
+            "scan108_train",
+            "scan109_train",
+            "scan115_train",
+            "scan117_train",
+            "scan118_train",
+            "scan119_train",
+            "scan120_train",
+            "scan121_train",
+            "scan122_train",
+            "scan13_train",
+            "scan14",
+            "scan14_train",
+            "scan16",
+            "scan17_train",
+            "scan21_train",
+            "scan22_train",
+            "scan28",
+            "scan44",
+            "scan72_train",
+            "scan75_train",
+            "scan84_train",
+            "scan92_train",
+            "scan98_train",
+            "scan9_train"
+          ],
+          "sha256": "05567709695e707033227688f5b799294b8d68db718adad9d2d2634ddfd7d09e",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 2093731582,
+          "format": "zip-store",
+          "name": "depths_raw_part03.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan116_train",
+            "scan123_train",
+            "scan124_train",
+            "scan125_train",
+            "scan128",
+            "scan128_train",
+            "scan15",
+            "scan29",
+            "scan2_train",
+            "scan31_train",
+            "scan33_train",
+            "scan42_train",
+            "scan44_train",
+            "scan49_train",
+            "scan4_train",
+            "scan5_train",
+            "scan67_train",
+            "scan74_train",
+            "scan76_train",
+            "scan7_train",
+            "scan86",
+            "scan89_train",
+            "scan90_train",
+            "scan93_train",
+            "scan94_train",
+            "scan95_train",
+            "scan97_train"
+          ],
+          "sha256": "1ea96b29a071a9a05eed21b0bf14e9594172254021538560ce156bf3dd281c67",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 2092826882,
+          "format": "zip-store",
+          "name": "depths_raw_part04.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan105_train",
+            "scan114_train",
+            "scan11_train",
+            "scan15_train",
+            "scan19_train",
+            "scan1_train",
+            "scan20_train",
+            "scan24",
+            "scan32_train",
+            "scan39_train",
+            "scan40_train",
+            "scan43",
+            "scan46",
+            "scan50_train",
+            "scan51_train",
+            "scan55_train",
+            "scan56_train",
+            "scan57_train",
+            "scan58_train",
+            "scan59_train",
+            "scan63_train",
+            "scan65_train",
+            "scan66_train",
+            "scan6_train",
+            "scan83_train",
+            "scan8_train",
+            "scan9"
+          ],
+          "sha256": "4d480d4f34afbe83cffff3967525a6de81f92fcb4a2b9bb22f50f81460862eaa",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 2091909814,
+          "format": "zip-store",
+          "name": "depths_raw_part05.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan103_train",
+            "scan10_train",
+            "scan126_train",
+            "scan127",
+            "scan127_train",
+            "scan12_train",
+            "scan23_train",
+            "scan25",
+            "scan26",
+            "scan27",
+            "scan28_train",
+            "scan29_train",
+            "scan36_train",
+            "scan38_train",
+            "scan41_train",
+            "scan43_train",
+            "scan45_train",
+            "scan46_train",
+            "scan47_train",
+            "scan48_train",
+            "scan52_train",
+            "scan53_train",
+            "scan61_train",
+            "scan62_train",
+            "scan64_train",
+            "scan68_train",
+            "scan82_train"
+          ],
+          "sha256": "079b9a1405d69a9abb3add33eaf373de552334240a8239cf7f968de80e5ff44e",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 2025661428,
+          "format": "zip-store",
+          "name": "depths_raw_part06.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan108",
+            "scan18",
+            "scan22",
+            "scan24_train",
+            "scan30_train",
+            "scan34_train",
+            "scan35_train",
+            "scan36",
+            "scan37_train",
+            "scan60_train",
+            "scan77_train"
+          ],
+          "sha256": "295cf188c57ed9c35b704388cbb875fd825168a9384f089b1051fde5e9b16b04",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1996613025,
+          "format": "zip-store",
+          "name": "depths_raw_part07.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan126",
+            "scan3",
+            "scan50",
+            "scan91"
+          ],
+          "sha256": "bfa7d54ff9e3ab8fecbe4a80b7bb16b68aff3c3142970d6c84ae48246a13aee9",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1995415931,
+          "format": "zip-store",
+          "name": "depths_raw_part08.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan31",
+            "scan39",
+            "scan69",
+            "scan88"
+          ],
+          "sha256": "3dfe100760506fc95a9b29ad7d3ef4182d73398d91a8187499ccb79978c4ef83",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1994743075,
+          "format": "zip-store",
+          "name": "depths_raw_part09.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan105",
+            "scan40",
+            "scan71",
+            "scan92"
+          ],
+          "sha256": "f7e76630c32825d469e0f24d6d4208cc15f0c68518c96a509fc8ecffd1b2a6c8",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1994107803,
+          "format": "zip-store",
+          "name": "depths_raw_part10.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan106",
+            "scan107",
+            "scan19",
+            "scan38"
+          ],
+          "sha256": "054a459b6a155d52ea6605865d97ed981081ee3fda172b94a7714a09097ca482",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1993400929,
+          "format": "zip-store",
+          "name": "depths_raw_part11.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan32",
+            "scan33",
+            "scan45",
+            "scan58"
+          ],
+          "sha256": "bb5699a1bc43dbfa13682e9ff33674d6d988ff4f01e2add780b54db2454daeb3",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1992968978,
+          "format": "zip-store",
+          "name": "depths_raw_part12.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan20",
+            "scan47",
+            "scan90",
+            "scan96"
+          ],
+          "sha256": "ed8edf2e567b67a05444620df1f305641420e477fa220235b6e4e08cf899d7b1",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1992748443,
+          "format": "zip-store",
+          "name": "depths_raw_part13.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan55",
+            "scan6",
+            "scan94",
+            "scan99"
+          ],
+          "sha256": "09c82c607c19172f30979de631f6103c6126dc3bcfe26a53523b825b9ec5175c",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1992448716,
+          "format": "zip-store",
+          "name": "depths_raw_part14.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan118",
+            "scan120",
+            "scan62",
+            "scan85"
+          ],
+          "sha256": "cb7c56983d0ddef7193f829f7fa3161e8667adb7d075d3e6cd434f93dcddde73",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1992084224,
+          "format": "zip-store",
+          "name": "depths_raw_part15.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan109",
+            "scan13",
+            "scan70",
+            "scan72"
+          ],
+          "sha256": "d901970d75fe569296f2d839df28dcf7889eefa8455681a5c2f67b94f1b62e92",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1991869239,
+          "format": "zip-store",
+          "name": "depths_raw_part16.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan114",
+            "scan116",
+            "scan84",
+            "scan97"
+          ],
+          "sha256": "c837cb28b184985f487c86ec724f0e929ccadcfecf9bc400a78d552fe62ed382",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1991487532,
+          "format": "zip-store",
+          "name": "depths_raw_part17.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan115",
+            "scan2",
+            "scan57",
+            "scan76"
+          ],
+          "sha256": "ccfeafeec5631ea4e041c2726205db3d3a7a33b564cfb18fbeb1aa8b4dabe3d6",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1991302416,
+          "format": "zip-store",
+          "name": "depths_raw_part18.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan117",
+            "scan49",
+            "scan52",
+            "scan61"
+          ],
+          "sha256": "56d000615f9a7316930c2fb570013344ff0317b323b48f6b038f5869250df7b2",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1991074042,
+          "format": "zip-store",
+          "name": "depths_raw_part19.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan10",
+            "scan103",
+            "scan56",
+            "scan74"
+          ],
+          "sha256": "525b806a243767c4324308e80ca9774fd3bb549d58d27deebfc65eca57fa837e",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1990524959,
+          "format": "zip-store",
+          "name": "depths_raw_part20.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan65",
+            "scan87",
+            "scan89",
+            "scan93"
+          ],
+          "sha256": "c31beec66c77bc16aa70efbd27cb12ca0ab24ebf7c29e35034845337d72ef430",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1990152783,
+          "format": "zip-store",
+          "name": "depths_raw_part21.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan102",
+            "scan119",
+            "scan42",
+            "scan5"
+          ],
+          "sha256": "c9a44d8b36adcd072a10058ef8c6cfdc9dd1a6c6971c56344409049b9eb5e055",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1989837880,
+          "format": "zip-store",
+          "name": "depths_raw_part22.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan11",
+            "scan7",
+            "scan82",
+            "scan98"
+          ],
+          "sha256": "3400d203b2bb1e56c6373da980a8ebc1c708725cdff4ee94eb6ce01e662a8eec",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1989491554,
+          "format": "zip-store",
+          "name": "depths_raw_part23.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan121",
+            "scan34",
+            "scan4",
+            "scan66"
+          ],
+          "sha256": "f3c405543010d596fd61cf81b4b1a1eb45a0bb9b01b548285a6031f2bf166952",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1989374929,
+          "format": "zip-store",
+          "name": "depths_raw_part24.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan100",
+            "scan37",
+            "scan64",
+            "scan95"
+          ],
+          "sha256": "f834394d623302164de32587867ec1f18ad6da9e5649dde605cc28f0d84b858e",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1988706716,
+          "format": "zip-store",
+          "name": "depths_raw_part25.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan122",
+            "scan125",
+            "scan53",
+            "scan83"
+          ],
+          "sha256": "225d0a5f56d2f397bdc2164daaddc9c5e55b57064584d2f665d002e776fca288",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1988053725,
+          "format": "zip-store",
+          "name": "depths_raw_part26.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan123",
+            "scan124",
+            "scan67",
+            "scan68"
+          ],
+          "sha256": "ca9d85efdd33a9af2d77d027d6d03c0c1e3d75becaf4ccaa0dccf9f0f3f794a2",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1987810366,
+          "format": "zip-store",
+          "name": "depths_raw_part27.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan110",
+            "scan35",
+            "scan41",
+            "scan54"
+          ],
+          "sha256": "e7d36fda34918827c1fcdfbb9ab76214e44f23e2ed026c20009d36f5e81fc281",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1987220484,
+          "format": "zip-store",
+          "name": "depths_raw_part28.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan1",
+            "scan48",
+            "scan59",
+            "scan75"
+          ],
+          "sha256": "4962fdb7200ff30ac37ed1d02a314c4d76fc1248d4d077e39f59d632ef5d0548",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1986377125,
+          "format": "zip-store",
+          "name": "depths_raw_part29.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan104",
+            "scan113",
+            "scan30",
+            "scan60"
+          ],
+          "sha256": "96896e2eec7484aba229361e9cb60827888a64fc99ac72848c36932e0d6d2e6a",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1985923325,
+          "format": "zip-store",
+          "name": "depths_raw_part30.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan101",
+            "scan111",
+            "scan112",
+            "scan51"
+          ],
+          "sha256": "54e91b6ced419a494f57a5f57c824137693f0cf2428582c68fb93dde12c7a36d",
+          "tag": "data-depths-raw"
+        },
+        {
+          "bytes": 1984848255,
+          "format": "zip-store",
+          "name": "depths_raw_part31.zip",
+          "path_root": "Depths",
+          "scenes": [
+            "scan12",
+            "scan63",
+            "scan77",
+            "scan8"
+          ],
+          "sha256": "e8b6715c0706620acf3f1eba4df3aa9cb539e97f78ba58839aeb72e33ab8b2e4",
+          "tag": "data-depths-raw"
+        }
+      ],
+      "description": "CasMVSNet raw depth maps; extracts to ds/Depths/ (scanN and scanN_train).",
+      "provenance": "Depths_raw.zip from CasMVSNet (aliyun OSS: virutalbuy-public.../CasMVSNet/dtu_data/dtu_train_hr/Depths_raw.zip).",
+      "tag": "data-depths-raw",
+      "total_bytes": 62257029925
+    },
+    "dtu": {
+      "assets": [
+        {
+          "bytes": 1029923789,
+          "format": "zip-store",
+          "name": "dtu.zip",
+          "path_root": "dtu",
+          "scenes": [
+            "scan114",
+            "scan31",
+            "scan31_train"
+          ],
+          "sha256": "7137b51c1b019d1ca1207b0d87786b2e38b4f1135f4b59ab7df36f29979d65a4",
+          "tag": "data-dtu"
+        }
+      ],
+      "description": "Small DTU subset (Rectified: scan31, scan31_train, scan114; Depths: scan114) for smoke tests.",
+      "provenance": "Subset assembled from DTU preprocessed data.",
+      "tag": "data-dtu",
+      "total_bytes": 1029923789
+    },
+    "llff": {
+      "assets": [
+        {
+          "bytes": 2045448052,
+          "format": "zip-store",
+          "name": "llff.zip",
+          "path_root": "llff/nerf_llff_data",
+          "scenes": [
+            "fern",
+            "flower",
+            "fortress",
+            "horns",
+            "leaves",
+            "orchids",
+            "room",
+            "trex"
+          ],
+          "sha256": "a88cb5b010cd70b26272e59d118d0778c6f4fd4fd2ee1b1b73e5372627f25bcc",
+          "tag": "data-llff"
+        }
+      ],
+      "description": "nerf_llff_data: fern, flower, fortress, horns, leaves, orchids, room, trex.",
+      "provenance": "nerf_llff_data (Google Drive, original NeRF/LLFF release).",
+      "tag": "data-llff",
+      "total_bytes": 2045448052
+    },
+    "mvs-training": {
+      "assets": [
+        {
+          "bytes": 47713,
+          "format": "zip-store",
+          "name": "mvs_training_cameras.zip",
+          "path_root": "mvs_training/dtu",
+          "scenes": [],
+          "sha256": "fae4662bc22e984f71547403f0ea5368b9d7606b6a3d204d442c047ef7364dcd",
+          "tag": "data-mvs-training"
+        },
+        {
+          "bytes": 2087849366,
+          "format": "zip-store",
+          "name": "mvs_training_part01.zip",
+          "path_root": "mvs_training/dtu",
+          "scenes": [
+            "scan21_train",
+            "scan2_train",
+            "scan36_train",
+            "scan38_train",
+            "scan39_train",
+            "scan55_train",
+            "scan56_train",
+            "scan57_train",
+            "scan58_train",
+            "scan77_train"
+          ],
+          "sha256": "9699a008af66abe3f5c3c3bdaa7ab0242bf2493fa1ce2e176414ed6f57df5229",
+          "tag": "data-mvs-training"
+        },
+        {
+          "bytes": 2041748709,
+          "format": "zip-store",
+          "name": "mvs_training_part02.zip",
+          "path_root": "mvs_training/dtu",
+          "scenes": [
+            "scan108_train",
+            "scan15_train",
+            "scan17_train",
+            "scan18_train",
+            "scan22_train",
+            "scan23_train",
+            "scan34_train",
+            "scan3_train",
+            "scan5_train",
+            "scan6_train"
+          ],
+          "sha256": "4295e2bafd61f70e95fde232d475c358d6c41c88dde2ca346e4f2a895ebac306",
+          "tag": "data-mvs-training"
+        },
+        {
+          "bytes": 2094229773,
+          "format": "zip-store",
+          "name": "mvs_training_part03.zip",
+          "path_root": "mvs_training/dtu",
+          "scenes": [
+            "scan109_train",
+            "scan14_train",
+            "scan16_train",
+            "scan1_train",
+            "scan40_train",
+            "scan43_train",
+            "scan44_train",
+            "scan46_train",
+            "scan4_train",
+            "scan74_train",
+            "scan9_train"
+          ],
+          "sha256": "6dca9b3b6870af30ee52e084ab2da957a5f1eabe6f664c5b3eade29b5bb5c4fd",
+          "tag": "data-mvs-training"
+        },
+        {
+          "bytes": 2040392497,
+          "format": "zip-store",
+          "name": "mvs_training_part04.zip",
+          "path_root": "mvs_training/dtu",
+          "scenes": [
+            "scan107_train",
+            "scan114_train",
+            "scan128_train",
+            "scan13_train",
+            "scan19_train",
+            "scan20_train",
+            "scan24_train",
+            "scan33_train",
+            "scan51_train",
+            "scan98_train",
+            "scan99_train"
+          ],
+          "sha256": "8839bfa0484020e2c6f7ce7755ae486f5c8751f07b71f6ea33ac53b68c5d593c",
+          "tag": "data-mvs-training"
+        },
+        {
+          "bytes": 2090708110,
+          "format": "zip-store",
+          "name": "mvs_training_part05.zip",
+          "path_root": "mvs_training/dtu",
+          "scenes": [
+            "scan100_train",
+            "scan105_train",
+            "scan115_train",
+            "scan11_train",
+            "scan31_train",
+            "scan50_train",
+            "scan82_train",
+            "scan8_train",
+            "scan94_train",
+            "scan95_train",
+            "scan96_train",
+            "scan97_train"
+          ],
+          "sha256": "55ba52460c864b4253c2587b2381a152635ea5c3195f8269e63e35e4dda1f8b5",
+          "tag": "data-mvs-training"
+        },
+        {
+          "bytes": 2079583849,
+          "format": "zip-store",
+          "name": "mvs_training_part06.zip",
+          "path_root": "mvs_training/dtu",
+          "scenes": [
+            "scan102_train",
+            "scan103_train",
+            "scan106_train",
+            "scan10_train",
+            "scan117_train",
+            "scan28_train",
+            "scan35_train",
+            "scan69_train",
+            "scan70_train",
+            "scan7_train",
+            "scan84_train",
+            "scan93_train"
+          ],
+          "sha256": "c978481940336caec0358d530b64ff2c86e2073963fd00d9c6bae6dcc7d6d36b",
+          "tag": "data-mvs-training"
+        },
+        {
+          "bytes": 2029008157,
+          "format": "zip-store",
+          "name": "mvs_training_part07.zip",
+          "path_root": "mvs_training/dtu",
+          "scenes": [
+            "scan118_train",
+            "scan123_train",
+            "scan124_train",
+            "scan126_train",
+            "scan12_train",
+            "scan41_train",
+            "scan42_train",
+            "scan45_train",
+            "scan65_train",
+            "scan71_train",
+            "scan72_train",
+            "scan87_train"
+          ],
+          "sha256": "7b064894c2cc2b681d0523d4d34b54be579194c3c0e4870025b253d872590ffe",
+          "tag": "data-mvs-training"
+        },
+        {
+          "bytes": 2089958903,
+          "format": "zip-store",
+          "name": "mvs_training_part08.zip",
+          "path_root": "mvs_training/dtu",
+          "scenes": [
+            "scan110_train",
+            "scan116_train",
+            "scan119_train",
+            "scan120_train",
+            "scan121_train",
+            "scan122_train",
+            "scan127_train",
+            "scan29_train",
+            "scan60_train",
+            "scan61_train",
+            "scan66_train",
+            "scan76_train",
+            "scan83_train"
+          ],
+          "sha256": "5f0a685498a8c68045454d150544d35d13a0233b6646658a9966d2aac4d6bcb9",
+          "tag": "data-mvs-training"
+        },
+        {
+          "bytes": 2050007202,
+          "format": "zip-store",
+          "name": "mvs_training_part09.zip",
+          "path_root": "mvs_training/dtu",
+          "scenes": [
+            "scan104_train",
+            "scan111_train",
+            "scan125_train",
+            "scan32_train",
+            "scan37_train",
+            "scan47_train",
+            "scan62_train",
+            "scan64_train",
+            "scan67_train",
+            "scan68_train",
+            "scan75_train",
+            "scan86_train",
+            "scan88_train"
+          ],
+          "sha256": "41bd8e0990aeec63496d1449dab06b1dadc8a53d0d2240ea327ed3e04b2f052c",
+          "tag": "data-mvs-training"
+        },
+        {
+          "bytes": 2078142530,
+          "format": "zip-store",
+          "name": "mvs_training_part10.zip",
+          "path_root": "mvs_training/dtu",
+          "scenes": [
+            "scan101_train",
+            "scan112_train",
+            "scan113_train",
+            "scan30_train",
+            "scan48_train",
+            "scan49_train",
+            "scan52_train",
+            "scan53_train",
+            "scan59_train",
+            "scan63_train",
+            "scan85_train",
+            "scan89_train",
+            "scan90_train",
+            "scan91_train",
+            "scan92_train"
+          ],
+          "sha256": "c178a97e4aa5f5e612d29f7e5bd821d6dd2f8b7df9e30e43360da43ea44ecf72",
+          "tag": "data-mvs-training"
+        }
+      ],
+      "cameras_asset": "mvs_training_cameras.zip",
+      "description": "DTU preprocessed training images and depths (Rectified/scanN_train, Depths/scanN_train) + shared Cameras.",
+      "provenance": "DTU training data, Google Drive (MVSNeRF preprocessing of MVSNet https://github.com/YoYo000/MVSNet). NOTE: the generalization 'dtu' loader also needs plain Depths/scanN from the 'depths-raw' dataset.",
+      "tag": "data-mvs-training",
+      "total_bytes": 20681676809
+    },
+    "rs-dtu": {
+      "assets": [
+        {
+          "bytes": 371748825,
+          "format": "file",
+          "name": "dtu_example.zip",
+          "path_root": "",
+          "scenes": [],
+          "sha256": "82262e31196a44ec50252738a2c4dbf61adf71bea1408c4edc8dcb177bf54e7c",
+          "tag": "data-rs-dtu"
+        },
+        {
+          "bytes": 973835361,
+          "format": "zip-store",
+          "name": "rs_dtu.zip",
+          "path_root": "rs_dtu/DTU",
+          "scenes": [
+            "scan1",
+            "scan10",
+            "scan100",
+            "scan101",
+            "scan102",
+            "scan103",
+            "scan104",
+            "scan105",
+            "scan106",
+            "scan107",
+            "scan108",
+            "scan109",
+            "scan11",
+            "scan110",
+            "scan111",
+            "scan112",
+            "scan113",
+            "scan114",
+            "scan115",
+            "scan116",
+            "scan117",
+            "scan118",
+            "scan119",
+            "scan12",
+            "scan120",
+            "scan121",
+            "scan122",
+            "scan123",
+            "scan124",
+            "scan125",
+            "scan126",
+            "scan127",
+            "scan128",
+            "scan13",
+            "scan14",
+            "scan15",
+            "scan16",
+            "scan17",
+            "scan18",
+            "scan19",
+            "scan2",
+            "scan20",
+            "scan21",
+            "scan22",
+            "scan23",
+            "scan24",
+            "scan25",
+            "scan26",
+            "scan27",
+            "scan28",
+            "scan29",
+            "scan3",
+            "scan30",
+            "scan31",
+            "scan32",
+            "scan33",
+            "scan34",
+            "scan35",
+            "scan36",
+            "scan37",
+            "scan38",
+            "scan39",
+            "scan4",
+            "scan40",
+            "scan41",
+            "scan42",
+            "scan43",
+            "scan44",
+            "scan45",
+            "scan46",
+            "scan47",
+            "scan48",
+            "scan49",
+            "scan5",
+            "scan50",
+            "scan51",
+            "scan52",
+            "scan53",
+            "scan54",
+            "scan55",
+            "scan56",
+            "scan57",
+            "scan58",
+            "scan59",
+            "scan6",
+            "scan60",
+            "scan61",
+            "scan62",
+            "scan63",
+            "scan64",
+            "scan65",
+            "scan66",
+            "scan67",
+            "scan68",
+            "scan69",
+            "scan7",
+            "scan70",
+            "scan71",
+            "scan72",
+            "scan73",
+            "scan74",
+            "scan75",
+            "scan76",
+            "scan77",
+            "scan8",
+            "scan82",
+            "scan83",
+            "scan84",
+            "scan85",
+            "scan86",
+            "scan87",
+            "scan88",
+            "scan89",
+            "scan9",
+            "scan90",
+            "scan91",
+            "scan92",
+            "scan93",
+            "scan94",
+            "scan95",
+            "scan96",
+            "scan97",
+            "scan98",
+            "scan99"
+          ],
+          "sha256": "e4126cbc23fa186c885933526bb8ac44cea17edf747ecef5f743a70cb2a93916",
+          "tag": "data-rs-dtu"
+        }
+      ],
+      "description": "rs_dtu/DTU test scans + Cameras. Includes dtu_example.zip (restored as the file ds/dtu_example.zip, not extracted).",
+      "provenance": "rs_dtu (MVSNeRF). dtu_example.zip from Hugging Face apchen/MVSNeRF.",
+      "tag": "data-rs-dtu",
+      "total_bytes": 1345584186
+    }
+  },
+  "extract_root": "ds",
+  "generated_utc": "2026-06-21T23:54:37Z",
+  "repo": "Wenri/mvsnerf",
+  "scene_index": {
+    "fern": [
+      {
+        "asset": "llff.zip",
+        "dataset": "llff"
+      }
+    ],
+    "flower": [
+      {
+        "asset": "llff.zip",
+        "dataset": "llff"
+      }
+    ],
+    "fortress": [
+      {
+        "asset": "llff.zip",
+        "dataset": "llff"
+      }
+    ],
+    "horns": [
+      {
+        "asset": "llff.zip",
+        "dataset": "llff"
+      }
+    ],
+    "leaves": [
+      {
+        "asset": "llff.zip",
+        "dataset": "llff"
+      }
+    ],
+    "orchids": [
+      {
+        "asset": "llff.zip",
+        "dataset": "llff"
+      }
+    ],
+    "room": [
+      {
+        "asset": "llff.zip",
+        "dataset": "llff"
+      }
+    ],
+    "scan1": [
+      {
+        "asset": "depths_raw_part28.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan10": [
+      {
+        "asset": "depths_raw_part19.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan100": [
+      {
+        "asset": "depths_raw_part24.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan100_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part05.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan101": [
+      {
+        "asset": "depths_raw_part30.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan101_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part10.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan102": [
+      {
+        "asset": "depths_raw_part21.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan102_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part06.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan103": [
+      {
+        "asset": "depths_raw_part19.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan103_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part06.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan104": [
+      {
+        "asset": "depths_raw_part29.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan104_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part09.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan105": [
+      {
+        "asset": "depths_raw_part09.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan105_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part05.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan106": [
+      {
+        "asset": "depths_raw_part10.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan106_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part06.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan107": [
+      {
+        "asset": "depths_raw_part10.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan107_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part04.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan108": [
+      {
+        "asset": "depths_raw_part06.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan108_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part02.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan109": [
+      {
+        "asset": "depths_raw_part15.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan109_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part03.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan10_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part06.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan11": [
+      {
+        "asset": "depths_raw_part22.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan110": [
+      {
+        "asset": "depths_raw_part27.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan110_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part08.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan111": [
+      {
+        "asset": "depths_raw_part30.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan111_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part09.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan112": [
+      {
+        "asset": "depths_raw_part30.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan112_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part10.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan113": [
+      {
+        "asset": "depths_raw_part29.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan113_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part10.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan114": [
+      {
+        "asset": "depths_raw_part16.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "dtu.zip",
+        "dataset": "dtu"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan114_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part04.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan115": [
+      {
+        "asset": "depths_raw_part17.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan115_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part05.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan116": [
+      {
+        "asset": "depths_raw_part16.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan116_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part08.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan117": [
+      {
+        "asset": "depths_raw_part18.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan117_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part06.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan118": [
+      {
+        "asset": "depths_raw_part14.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan118_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part07.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan119": [
+      {
+        "asset": "depths_raw_part21.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan119_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part08.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan11_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part05.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan12": [
+      {
+        "asset": "depths_raw_part31.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan120": [
+      {
+        "asset": "depths_raw_part14.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan120_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part08.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan121": [
+      {
+        "asset": "depths_raw_part23.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan121_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part08.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan122": [
+      {
+        "asset": "depths_raw_part25.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan122_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part08.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan123": [
+      {
+        "asset": "depths_raw_part26.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan123_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part07.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan124": [
+      {
+        "asset": "depths_raw_part26.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan124_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part07.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan125": [
+      {
+        "asset": "depths_raw_part25.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan125_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part09.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan126": [
+      {
+        "asset": "depths_raw_part07.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan126_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part07.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan127": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan127_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part08.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan128": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan128_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part04.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan12_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part07.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan13": [
+      {
+        "asset": "depths_raw_part15.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan13_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part04.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan14": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan14_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part03.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan15": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan15_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part02.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan16": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan16_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part03.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan17": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan17_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part02.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan18": [
+      {
+        "asset": "depths_raw_part06.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan18_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part02.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan19": [
+      {
+        "asset": "depths_raw_part10.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan19_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part04.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan1_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part03.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan2": [
+      {
+        "asset": "depths_raw_part17.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan20": [
+      {
+        "asset": "depths_raw_part12.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan20_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part04.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan21": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan21_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part01.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan22": [
+      {
+        "asset": "depths_raw_part06.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan22_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part02.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan23": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan23_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part02.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan24": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan24_train": [
+      {
+        "asset": "depths_raw_part06.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part04.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan25": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan26": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan27": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan28": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan28_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part06.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan29": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan29_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part08.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan2_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part01.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan3": [
+      {
+        "asset": "depths_raw_part07.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan30": [
+      {
+        "asset": "depths_raw_part29.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan30_train": [
+      {
+        "asset": "depths_raw_part06.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part10.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan31": [
+      {
+        "asset": "depths_raw_part08.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "dtu.zip",
+        "dataset": "dtu"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan31_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "dtu.zip",
+        "dataset": "dtu"
+      },
+      {
+        "asset": "mvs_training_part05.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan32": [
+      {
+        "asset": "depths_raw_part11.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan32_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part09.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan33": [
+      {
+        "asset": "depths_raw_part11.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan33_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part04.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan34": [
+      {
+        "asset": "depths_raw_part23.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan34_train": [
+      {
+        "asset": "depths_raw_part06.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part02.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan35": [
+      {
+        "asset": "depths_raw_part27.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan35_train": [
+      {
+        "asset": "depths_raw_part06.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part06.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan36": [
+      {
+        "asset": "depths_raw_part06.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan36_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part01.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan37": [
+      {
+        "asset": "depths_raw_part24.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan37_train": [
+      {
+        "asset": "depths_raw_part06.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part09.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan38": [
+      {
+        "asset": "depths_raw_part10.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan38_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part01.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan39": [
+      {
+        "asset": "depths_raw_part08.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan39_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part01.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan3_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part02.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan4": [
+      {
+        "asset": "depths_raw_part23.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan40": [
+      {
+        "asset": "depths_raw_part09.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan40_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part03.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan41": [
+      {
+        "asset": "depths_raw_part27.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan41_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part07.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan42": [
+      {
+        "asset": "depths_raw_part21.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan42_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part07.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan43": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan43_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part03.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan44": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan44_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part03.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan45": [
+      {
+        "asset": "depths_raw_part11.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan45_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part07.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan46": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan46_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part03.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan47": [
+      {
+        "asset": "depths_raw_part12.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan47_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part09.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan48": [
+      {
+        "asset": "depths_raw_part28.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan48_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part10.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan49": [
+      {
+        "asset": "depths_raw_part18.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan49_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part10.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan4_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part03.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan5": [
+      {
+        "asset": "depths_raw_part21.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan50": [
+      {
+        "asset": "depths_raw_part07.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan50_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part05.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan51": [
+      {
+        "asset": "depths_raw_part30.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan51_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part04.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan52": [
+      {
+        "asset": "depths_raw_part18.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan52_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part10.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan53": [
+      {
+        "asset": "depths_raw_part25.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan53_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part10.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan54": [
+      {
+        "asset": "depths_raw_part27.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan55": [
+      {
+        "asset": "depths_raw_part13.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan55_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part01.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan56": [
+      {
+        "asset": "depths_raw_part19.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan56_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part01.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan57": [
+      {
+        "asset": "depths_raw_part17.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan57_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part01.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan58": [
+      {
+        "asset": "depths_raw_part11.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan58_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part01.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan59": [
+      {
+        "asset": "depths_raw_part28.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan59_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part10.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan5_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part02.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan6": [
+      {
+        "asset": "depths_raw_part13.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan60": [
+      {
+        "asset": "depths_raw_part29.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan60_train": [
+      {
+        "asset": "depths_raw_part06.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part08.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan61": [
+      {
+        "asset": "depths_raw_part18.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan61_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part08.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan62": [
+      {
+        "asset": "depths_raw_part14.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan62_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part09.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan63": [
+      {
+        "asset": "depths_raw_part31.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan63_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part10.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan64": [
+      {
+        "asset": "depths_raw_part24.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan64_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part09.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan65": [
+      {
+        "asset": "depths_raw_part20.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan65_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part07.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan66": [
+      {
+        "asset": "depths_raw_part23.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan66_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part08.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan67": [
+      {
+        "asset": "depths_raw_part26.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan67_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part09.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan68": [
+      {
+        "asset": "depths_raw_part26.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan68_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part09.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan69": [
+      {
+        "asset": "depths_raw_part08.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan69_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part06.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan6_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part02.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan7": [
+      {
+        "asset": "depths_raw_part22.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan70": [
+      {
+        "asset": "depths_raw_part15.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan70_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part06.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan71": [
+      {
+        "asset": "depths_raw_part09.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan71_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part07.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan72": [
+      {
+        "asset": "depths_raw_part15.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan72_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part07.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan73": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan74": [
+      {
+        "asset": "depths_raw_part19.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan74_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part03.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan75": [
+      {
+        "asset": "depths_raw_part28.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan75_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part09.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan76": [
+      {
+        "asset": "depths_raw_part17.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan76_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part08.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan77": [
+      {
+        "asset": "depths_raw_part31.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan77_train": [
+      {
+        "asset": "depths_raw_part06.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part01.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan7_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part06.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan8": [
+      {
+        "asset": "depths_raw_part31.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan82": [
+      {
+        "asset": "depths_raw_part22.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan82_train": [
+      {
+        "asset": "depths_raw_part05.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part05.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan83": [
+      {
+        "asset": "depths_raw_part25.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan83_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part08.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan84": [
+      {
+        "asset": "depths_raw_part16.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan84_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part06.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan85": [
+      {
+        "asset": "depths_raw_part14.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan85_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part10.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan86": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan86_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part09.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan87": [
+      {
+        "asset": "depths_raw_part20.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan87_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part07.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan88": [
+      {
+        "asset": "depths_raw_part08.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan88_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part09.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan89": [
+      {
+        "asset": "depths_raw_part20.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan89_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part10.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan8_train": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part05.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan9": [
+      {
+        "asset": "depths_raw_part04.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan90": [
+      {
+        "asset": "depths_raw_part12.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan90_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part10.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan91": [
+      {
+        "asset": "depths_raw_part07.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan91_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part10.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan92": [
+      {
+        "asset": "depths_raw_part09.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan92_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part10.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan93": [
+      {
+        "asset": "depths_raw_part20.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan93_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part06.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan94": [
+      {
+        "asset": "depths_raw_part13.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan94_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part05.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan95": [
+      {
+        "asset": "depths_raw_part24.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan95_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part05.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan96": [
+      {
+        "asset": "depths_raw_part12.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan96_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part05.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan97": [
+      {
+        "asset": "depths_raw_part16.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan97_train": [
+      {
+        "asset": "depths_raw_part03.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part05.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan98": [
+      {
+        "asset": "depths_raw_part22.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan98_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part04.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan99": [
+      {
+        "asset": "depths_raw_part13.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "rs_dtu.zip",
+        "dataset": "rs-dtu"
+      }
+    ],
+    "scan99_train": [
+      {
+        "asset": "depths_raw_part01.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part04.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "scan9_train": [
+      {
+        "asset": "depths_raw_part02.zip",
+        "dataset": "depths-raw"
+      },
+      {
+        "asset": "mvs_training_part03.zip",
+        "dataset": "mvs-training"
+      }
+    ],
+    "trex": [
+      {
+        "asset": "llff.zip",
+        "dataset": "llff"
+      }
+    ]
+  },
+  "schema_version": 1
+}
