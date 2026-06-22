@@ -37,6 +37,7 @@ python tools/download_data.py --scene scan23    # only the part(s) holding a sce
 | `llff` | `data-llff` | ~1.9 GiB | `ds/llff/nerf_llff_data/` | LLFF finetuning |
 | `rs-dtu` | `data-rs-dtu` | ~1.3 GiB | `ds/rs_dtu/` (+ `ds/dtu_example.zip`) | DTU test scans / example |
 | `dtu` | `data-dtu` | ~0.7 GiB | `ds/dtu/` | small 3-scene DTU subset |
+| `finetuning` | `data-finetuning` | ~15 GiB | `runs_fine_tuning/` (repo root) | per-scene fine-tuned checkpoints + logs + renders |
 
 > **Important:** the generalizable DTU model (`--dataset_name dtu`) and DTU finetuning
 > (`--dataset_name dtu_ft`) read images from `Rectified/scanN_train/` but depths from

@@ -154,18 +154,19 @@ def main():
     ap.add_argument("--list", action="store_true", help="list datasets/assets and exit")
     ap.add_argument("--verify-only", action="store_true",
                     help="re-hash cached archives against the manifest and exit")
-    ap.add_argument("--dest", type=Path, default=ROOT / "ds",
-                    help="extract root (default: ds/)")
+    ap.add_argument("--dest", type=Path, default=None,
+                    help="override extract root for ALL assets (default: per-dataset "
+                         "-- ds/, or the repo root for finetuning runs)")
     ap.add_argument("--keep-archives", action="store_true",
-                    help="keep downloaded archives in <dest>/.download_cache")
+                    help="keep downloaded archives in the .download_cache")
     args = ap.parse_args()
 
     m = load_manifest()
     if args.list:
         return cmd_list(m)
 
-    dest = args.dest
-    cache = dest / ".download_cache"
+    override = args.dest
+    cache = (override or (ROOT / "ds")) / ".download_cache"
 
     if args.verify_only:
         ok = bad = miss = 0
@@ -185,23 +186,23 @@ def main():
     if not assets:
         ap.error("specify --all, --dataset NAME, --scene NAME, --list, or --verify-only")
     total = sum(a["bytes"] for a in assets)
-    print(f"{len(assets)} asset(s), {human(total)} -> {dest}/")
+    print(f"{len(assets)} asset(s), {human(total)}")
 
     for a in assets:
+        adest = override if override is not None else (ROOT / a.get("extract_to", "ds"))
         url, archive = asset_url(m, a), cache / a["name"]
-        print(f"==> {a['name']} ({human(a['bytes'])})")
+        print(f"==> {a['name']} ({human(a['bytes'])}) -> {adest}/")
         download(url, archive, a["bytes"])
-        digest = sha256_file(archive)
-        if digest != a["sha256"]:
+        if sha256_file(archive) != a["sha256"]:
             archive.unlink(missing_ok=True)         # drop & retry once from scratch
             download(url, archive, a["bytes"])
             if sha256_file(archive) != a["sha256"]:
                 sys.exit(f"sha256 mismatch for {a['name']}")
+        adest.mkdir(parents=True, exist_ok=True)
         if a["format"] == "file":                   # passthrough: place, don't extract
-            (dest).mkdir(parents=True, exist_ok=True)
-            shutil.copy2(archive, dest / a["name"])
+            shutil.copy2(archive, adest / a["name"])
         else:
-            safe_extract(archive, dest)
+            safe_extract(archive, adest)
         if not args.keep_archives:
             archive.unlink(missing_ok=True)
     if cache.exists() and not args.keep_archives and not any(cache.iterdir()):

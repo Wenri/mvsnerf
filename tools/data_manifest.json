@@ -5,6 +5,7 @@
       "assets": [
         {
           "bytes": 2093048984,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part01.zip",
           "path_root": "Depths",
@@ -40,6 +41,7 @@
         },
         {
           "bytes": 2091264781,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part02.zip",
           "path_root": "Depths",
@@ -76,6 +78,7 @@
         },
         {
           "bytes": 2093731582,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part03.zip",
           "path_root": "Depths",
@@ -113,6 +116,7 @@
         },
         {
           "bytes": 2092826882,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part04.zip",
           "path_root": "Depths",
@@ -150,6 +154,7 @@
         },
         {
           "bytes": 2091909814,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part05.zip",
           "path_root": "Depths",
@@ -187,6 +192,7 @@
         },
         {
           "bytes": 2025661428,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part06.zip",
           "path_root": "Depths",
@@ -208,6 +214,7 @@
         },
         {
           "bytes": 1996613025,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part07.zip",
           "path_root": "Depths",
@@ -222,6 +229,7 @@
         },
         {
           "bytes": 1995415931,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part08.zip",
           "path_root": "Depths",
@@ -236,6 +244,7 @@
         },
         {
           "bytes": 1994743075,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part09.zip",
           "path_root": "Depths",
@@ -250,6 +259,7 @@
         },
         {
           "bytes": 1994107803,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part10.zip",
           "path_root": "Depths",
@@ -264,6 +274,7 @@
         },
         {
           "bytes": 1993400929,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part11.zip",
           "path_root": "Depths",
@@ -278,6 +289,7 @@
         },
         {
           "bytes": 1992968978,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part12.zip",
           "path_root": "Depths",
@@ -292,6 +304,7 @@
         },
         {
           "bytes": 1992748443,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part13.zip",
           "path_root": "Depths",
@@ -306,6 +319,7 @@
         },
         {
           "bytes": 1992448716,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part14.zip",
           "path_root": "Depths",
@@ -320,6 +334,7 @@
         },
         {
           "bytes": 1992084224,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part15.zip",
           "path_root": "Depths",
@@ -334,6 +349,7 @@
         },
         {
           "bytes": 1991869239,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part16.zip",
           "path_root": "Depths",
@@ -348,6 +364,7 @@
         },
         {
           "bytes": 1991487532,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part17.zip",
           "path_root": "Depths",
@@ -362,6 +379,7 @@
         },
         {
           "bytes": 1991302416,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part18.zip",
           "path_root": "Depths",
@@ -376,6 +394,7 @@
         },
         {
           "bytes": 1991074042,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part19.zip",
           "path_root": "Depths",
@@ -390,6 +409,7 @@
         },
         {
           "bytes": 1990524959,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part20.zip",
           "path_root": "Depths",
@@ -404,6 +424,7 @@
         },
         {
           "bytes": 1990152783,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part21.zip",
           "path_root": "Depths",
@@ -418,6 +439,7 @@
         },
         {
           "bytes": 1989837880,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part22.zip",
           "path_root": "Depths",
@@ -432,6 +454,7 @@
         },
         {
           "bytes": 1989491554,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part23.zip",
           "path_root": "Depths",
@@ -446,6 +469,7 @@
         },
         {
           "bytes": 1989374929,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part24.zip",
           "path_root": "Depths",
@@ -460,6 +484,7 @@
         },
         {
           "bytes": 1988706716,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part25.zip",
           "path_root": "Depths",
@@ -474,6 +499,7 @@
         },
         {
           "bytes": 1988053725,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part26.zip",
           "path_root": "Depths",
@@ -488,6 +514,7 @@
         },
         {
           "bytes": 1987810366,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part27.zip",
           "path_root": "Depths",
@@ -502,6 +529,7 @@
         },
         {
           "bytes": 1987220484,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part28.zip",
           "path_root": "Depths",
@@ -516,6 +544,7 @@
         },
         {
           "bytes": 1986377125,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part29.zip",
           "path_root": "Depths",
@@ -530,6 +559,7 @@
         },
         {
           "bytes": 1985923325,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part30.zip",
           "path_root": "Depths",
@@ -544,6 +574,7 @@
         },
         {
           "bytes": 1984848255,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "depths_raw_part31.zip",
           "path_root": "Depths",
@@ -558,6 +589,7 @@
         }
       ],
       "description": "CasMVSNet raw depth maps; extracts to ds/Depths/ (scanN and scanN_train).",
+      "extract_to": "ds",
       "provenance": "Depths_raw.zip from CasMVSNet (aliyun OSS: virutalbuy-public.../CasMVSNet/dtu_data/dtu_train_hr/Depths_raw.zip).",
       "tag": "data-depths-raw",
       "total_bytes": 62257029925
@@ -566,6 +598,7 @@
       "assets": [
         {
           "bytes": 1029923789,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "dtu.zip",
           "path_root": "dtu",
@@ -579,14 +612,143 @@
         }
       ],
       "description": "Small DTU subset (Rectified: scan31, scan31_train, scan114; Depths: scan114) for smoke tests.",
+      "extract_to": "ds",
       "provenance": "Subset assembled from DTU preprocessed data.",
       "tag": "data-dtu",
       "total_bytes": 1029923789
+    },
+    "finetuning": {
+      "assets": [
+        {
+          "bytes": 2093336148,
+          "extract_to": ".",
+          "format": "zip-store",
+          "name": "finetuning_part01.zip",
+          "path_root": "runs_fine_tuning",
+          "scenes": [
+            "fern-ftF",
+            "orchids-ftF",
+            "scan114-ft"
+          ],
+          "sha256": "1d40c632eb5c97f0124a2278b16b934d2cfcffe45d5bc2915dc6d78eac8bbd34",
+          "tag": "data-finetuning"
+        },
+        {
+          "bytes": 2090649156,
+          "extract_to": ".",
+          "format": "zip-store",
+          "name": "finetuning_part02.zip",
+          "path_root": "runs_fine_tuning",
+          "scenes": [
+            "fern-ftF",
+            "flower-ftF"
+          ],
+          "sha256": "7a35c76f3af40e2b54e0cc88c6b0dc9506fd7052434140f009c8c9f5329879ac",
+          "tag": "data-finetuning"
+        },
+        {
+          "bytes": 2093673091,
+          "extract_to": ".",
+          "format": "zip-store",
+          "name": "finetuning_part03.zip",
+          "path_root": "runs_fine_tuning",
+          "scenes": [
+            "fern-ftF",
+            "leaves-ft",
+            "room-ft"
+          ],
+          "sha256": "03a827643a3ed8e13a680cf8071b19b2f60185c3f7767e34eb56e12403862fa0",
+          "tag": "data-finetuning"
+        },
+        {
+          "bytes": 1807936792,
+          "extract_to": ".",
+          "format": "zip-store",
+          "name": "finetuning_part04.zip",
+          "path_root": "runs_fine_tuning",
+          "scenes": [
+            "fern-ftF",
+            "orchids-ft"
+          ],
+          "sha256": "68ff18f5d878b6098419fd3fe103e949a7247fde7784fff5b82521d8ce79e10f",
+          "tag": "data-finetuning"
+        },
+        {
+          "bytes": 1836551285,
+          "extract_to": ".",
+          "format": "zip-store",
+          "name": "finetuning_part05.zip",
+          "path_root": "runs_fine_tuning",
+          "scenes": [
+            "fern-ftF",
+            "flower-ftFF"
+          ],
+          "sha256": "878f975a2f723d7c427cdfecc5f98b18e4424772972b5bd2d5cb33d776c31502",
+          "tag": "data-finetuning"
+        },
+        {
+          "bytes": 1752910531,
+          "extract_to": ".",
+          "format": "zip-store",
+          "name": "finetuning_part06.zip",
+          "path_root": "runs_fine_tuning",
+          "scenes": [
+            "fern-ft",
+            "flower-ft6"
+          ],
+          "sha256": "9c75046832d7c4d6708375f4ae571e6e0eded8b7a8d2d0a9142c3a5226848f1f",
+          "tag": "data-finetuning"
+        },
+        {
+          "bytes": 1734735534,
+          "extract_to": ".",
+          "format": "zip-store",
+          "name": "finetuning_part07.zip",
+          "path_root": "runs_fine_tuning",
+          "scenes": [
+            "flower-ft3",
+            "trex-ft"
+          ],
+          "sha256": "e8bc68a22c71f358a4efbe9b06c2c5d5e9f168a120559fffa8a2b2404bda6c91",
+          "tag": "data-finetuning"
+        },
+        {
+          "bytes": 1659292819,
+          "extract_to": ".",
+          "format": "zip-store",
+          "name": "finetuning_part08.zip",
+          "path_root": "runs_fine_tuning",
+          "scenes": [
+            "fortress-ft",
+            "horns-ft"
+          ],
+          "sha256": "ced893616758e343579b6ec555e609cf39111b711788a214c3438dd70401c869",
+          "tag": "data-finetuning"
+        },
+        {
+          "bytes": 796297532,
+          "extract_to": ".",
+          "format": "zip-store",
+          "name": "finetuning_part09.zip",
+          "path_root": "runs_fine_tuning",
+          "scenes": [
+            "flower-ft"
+          ],
+          "sha256": "a119b54f30c11597bba80994a870abafca5495a1c61445b13c129c021916d71b",
+          "tag": "data-finetuning"
+        }
+      ],
+      "description": "Full runs_fine_tuning/ outputs: per-scene fine-tuned checkpoints (ckpts/*.tar), TensorBoard/test-tube logs, and validation render PNGs. Restores to ./runs_fine_tuning/.",
+      "extract_to": ".",
+      "provenance": "Locally produced MVSNeRF fine-tuning runs (Aug 2023).",
+      "tag": "data-finetuning",
+      "total_bytes": 15865382888
     },
     "llff": {
       "assets": [
         {
           "bytes": 2045448052,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "llff.zip",
           "path_root": "llff/nerf_llff_data",
@@ -605,6 +767,7 @@
         }
       ],
       "description": "nerf_llff_data: fern, flower, fortress, horns, leaves, orchids, room, trex.",
+      "extract_to": "ds",
       "provenance": "nerf_llff_data (Google Drive, original NeRF/LLFF release).",
       "tag": "data-llff",
       "total_bytes": 2045448052
@@ -613,6 +776,7 @@
       "assets": [
         {
           "bytes": 47713,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "mvs_training_cameras.zip",
           "path_root": "mvs_training/dtu",
@@ -622,6 +786,7 @@
         },
         {
           "bytes": 2087849366,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "mvs_training_part01.zip",
           "path_root": "mvs_training/dtu",
@@ -642,6 +807,7 @@
         },
         {
           "bytes": 2041748709,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "mvs_training_part02.zip",
           "path_root": "mvs_training/dtu",
@@ -662,6 +828,7 @@
         },
         {
           "bytes": 2094229773,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "mvs_training_part03.zip",
           "path_root": "mvs_training/dtu",
@@ -683,6 +850,7 @@
         },
         {
           "bytes": 2040392497,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "mvs_training_part04.zip",
           "path_root": "mvs_training/dtu",
@@ -704,6 +872,7 @@
         },
         {
           "bytes": 2090708110,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "mvs_training_part05.zip",
           "path_root": "mvs_training/dtu",
@@ -726,6 +895,7 @@
         },
         {
           "bytes": 2079583849,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "mvs_training_part06.zip",
           "path_root": "mvs_training/dtu",
@@ -748,6 +918,7 @@
         },
         {
           "bytes": 2029008157,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "mvs_training_part07.zip",
           "path_root": "mvs_training/dtu",
@@ -770,6 +941,7 @@
         },
         {
           "bytes": 2089958903,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "mvs_training_part08.zip",
           "path_root": "mvs_training/dtu",
@@ -793,6 +965,7 @@
         },
         {
           "bytes": 2050007202,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "mvs_training_part09.zip",
           "path_root": "mvs_training/dtu",
@@ -816,6 +989,7 @@
         },
         {
           "bytes": 2078142530,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "mvs_training_part10.zip",
           "path_root": "mvs_training/dtu",
@@ -842,6 +1016,7 @@
       ],
       "cameras_asset": "mvs_training_cameras.zip",
       "description": "DTU preprocessed training images and depths (Rectified/scanN_train, Depths/scanN_train) + shared Cameras.",
+      "extract_to": "ds",
       "provenance": "DTU training data, Google Drive (MVSNeRF preprocessing of MVSNet https://github.com/YoYo000/MVSNet). NOTE: the generalization 'dtu' loader also needs plain Depths/scanN from the 'depths-raw' dataset.",
       "tag": "data-mvs-training",
       "total_bytes": 20681676809
@@ -850,6 +1025,7 @@
       "assets": [
         {
           "bytes": 371748825,
+          "extract_to": "ds",
           "format": "file",
           "name": "dtu_example.zip",
           "path_root": "",
@@ -859,6 +1035,7 @@
         },
         {
           "bytes": 973835361,
+          "extract_to": "ds",
           "format": "zip-store",
           "name": "rs_dtu.zip",
           "path_root": "rs_dtu/DTU",
@@ -993,13 +1170,14 @@
         }
       ],
       "description": "rs_dtu/DTU test scans + Cameras. Includes dtu_example.zip (restored as the file ds/dtu_example.zip, not extracted).",
+      "extract_to": "ds",
       "provenance": "rs_dtu (MVSNeRF). dtu_example.zip from Hugging Face apchen/MVSNeRF.",
       "tag": "data-rs-dtu",
       "total_bytes": 1345584186
     }
   },
   "extract_root": "ds",
-  "generated_utc": "2026-06-21T23:54:37Z",
+  "generated_utc": "2026-06-22T00:30:44Z",
   "repo": "Wenri/mvsnerf",
   "scene_index": {
     "fern": [
@@ -1008,10 +1186,68 @@
         "dataset": "llff"
       }
     ],
+    "fern-ft": [
+      {
+        "asset": "finetuning_part06.zip",
+        "dataset": "finetuning"
+      }
+    ],
+    "fern-ftF": [
+      {
+        "asset": "finetuning_part01.zip",
+        "dataset": "finetuning"
+      },
+      {
+        "asset": "finetuning_part02.zip",
+        "dataset": "finetuning"
+      },
+      {
+        "asset": "finetuning_part03.zip",
+        "dataset": "finetuning"
+      },
+      {
+        "asset": "finetuning_part04.zip",
+        "dataset": "finetuning"
+      },
+      {
+        "asset": "finetuning_part05.zip",
+        "dataset": "finetuning"
+      }
+    ],
     "flower": [
       {
         "asset": "llff.zip",
         "dataset": "llff"
+      }
+    ],
+    "flower-ft": [
+      {
+        "asset": "finetuning_part09.zip",
+        "dataset": "finetuning"
+      }
+    ],
+    "flower-ft3": [
+      {
+        "asset": "finetuning_part07.zip",
+        "dataset": "finetuning"
+      }
+    ],
+    "flower-ft6": [
+      {
+        "asset": "finetuning_part06.zip",
+        "dataset": "finetuning"
+      }
+    ],
+    "flower-ftF": [
+      {
+        "asset": "finetuning_part02.zip",
+        "dataset": "finetuning"
+      }
+    ],
+    "flower-ftFF": [
+      {
+        "asset": "finetuning_part05.zip",
+        "dataset": "finetuning"
       }
     ],
     "fortress": [
@@ -1020,10 +1256,22 @@
         "dataset": "llff"
       }
     ],
+    "fortress-ft": [
+      {
+        "asset": "finetuning_part08.zip",
+        "dataset": "finetuning"
+      }
+    ],
     "horns": [
       {
         "asset": "llff.zip",
         "dataset": "llff"
+      }
+    ],
+    "horns-ft": [
+      {
+        "asset": "finetuning_part08.zip",
+        "dataset": "finetuning"
       }
     ],
     "leaves": [
@@ -1032,16 +1280,40 @@
         "dataset": "llff"
       }
     ],
+    "leaves-ft": [
+      {
+        "asset": "finetuning_part03.zip",
+        "dataset": "finetuning"
+      }
+    ],
     "orchids": [
       {
         "asset": "llff.zip",
         "dataset": "llff"
       }
     ],
+    "orchids-ft": [
+      {
+        "asset": "finetuning_part04.zip",
+        "dataset": "finetuning"
+      }
+    ],
+    "orchids-ftF": [
+      {
+        "asset": "finetuning_part01.zip",
+        "dataset": "finetuning"
+      }
+    ],
     "room": [
       {
         "asset": "llff.zip",
         "dataset": "llff"
+      }
+    ],
+    "room-ft": [
+      {
+        "asset": "finetuning_part03.zip",
+        "dataset": "finetuning"
       }
     ],
     "scan1": [
@@ -1376,6 +1648,12 @@
       {
         "asset": "rs_dtu.zip",
         "dataset": "rs-dtu"
+      }
+    ],
+    "scan114-ft": [
+      {
+        "asset": "finetuning_part01.zip",
+        "dataset": "finetuning"
       }
     ],
     "scan114_train": [
@@ -3490,6 +3768,12 @@
       {
         "asset": "llff.zip",
         "dataset": "llff"
+      }
+    ],
+    "trex-ft": [
+      {
+        "asset": "finetuning_part07.zip",
+        "dataset": "finetuning"
       }
     ]
   },

@@ -74,15 +74,16 @@ def _matcher(pattern):
     return scene_of
 
 
-def _discover_tree(root, scene_of):
+def _discover_tree(root, scene_of, base=DS):
     """Walk EVERY file under root; scene_of(arcname) -> scene name or None.
 
-    Completeness-guaranteed: each file under root is assigned to exactly one
-    scene unit or the shared 'cameras' unit, so no file is ever dropped.
+    arcnames are relative to `base` (the download extract root). Completeness-
+    guaranteed: each file under root is assigned to exactly one scene unit or the
+    shared 'cameras' unit, so no file is ever dropped.
     """
     scene_files, shared = {}, []
     for p in _iter_files(root):
-        entry = (str(p.relative_to(DS)), p.stat().st_size, ("fs", str(p)))
+        entry = (str(p.relative_to(base)), p.stat().st_size, ("fs", str(p)))
         s = scene_of(entry[0])
         if s is None:
             shared.append(entry)
@@ -91,6 +92,25 @@ def _discover_tree(root, scene_of):
     units = [_mk_unit(s, scene_files[s], [s]) for s in sorted(scene_files)]
     shared_units = [_mk_unit("cameras", shared, [])] if shared else []
     return units, shared_units
+
+
+def _split_oversize(units, limit=BIN_LIMIT):
+    """Break any unit larger than the bin limit into per-file sub-units.
+
+    No file is split (byte-level); only the grouping is finer. The scene label
+    is preserved so the scene index still resolves. Used for datasets where a
+    single 'scene' can exceed the ceiling (e.g. a fine-tuning run with big logs).
+    """
+    out = []
+    for u in units:
+        if u["size"] <= limit:
+            out.append(u)
+            continue
+        for i, f in enumerate(sorted(u["files"])):
+            if f[1] + ENTRY_OVERHEAD > limit:
+                sys.exit(f"single file exceeds bin limit: {f[0]} ({f[1]}B)")
+            out.append(_mk_unit(f"{u['name']}#{i:04d}", [f], u["scenes"]))
+    return out
 
 
 def discover_mvs_training():
@@ -129,6 +149,16 @@ def discover_rs_dtu():
 def discover_dtu():
     return _discover_tree(
         DS / "dtu", _matcher(r"dtu/(?:Rectified|Depths)/(scan\d+(?:_train)?)/"))
+
+
+def discover_finetuning():
+    # arcnames relative to the repo root, so it restores to ./runs_fine_tuning/
+    return _discover_tree(ROOT / "runs_fine_tuning",
+                          _matcher(r"runs_fine_tuning/([^/]+)/"), base=ROOT)
+
+
+# extract root (relative to the repo) per dataset; default "ds".
+EXTRACT_TO = {"finetuning": "."}
 
 
 DATASETS = {
@@ -171,6 +201,14 @@ DATASETS = {
         description="Small DTU subset (Rectified: scan31, scan31_train, scan114; "
                     "Depths: scan114) for smoke tests.",
         provenance="Subset assembled from DTU preprocessed data."),
+    "finetuning": dict(
+        tag="data-finetuning", prefix="finetuning", path_root="runs_fine_tuning",
+        discover=discover_finetuning, source_zip=None,
+        title="Fine-tuning experiment runs (checkpoints + logs + renders)",
+        description="Full runs_fine_tuning/ outputs: per-scene fine-tuned "
+                    "checkpoints (ckpts/*.tar), TensorBoard/test-tube logs, and "
+                    "validation render PNGs. Restores to ./runs_fine_tuning/.",
+        provenance="Locally produced MVSNeRF fine-tuning runs (Aug 2023)."),
 }
 
 
@@ -195,6 +233,8 @@ def ffd_pack(units, limit=BIN_LIMIT):
 def plan_assets(cfg, scene_units, shared):
     """Return a list of asset dicts: {name, units, scenes, path_root}."""
     prefix, root = cfg["prefix"], cfg["path_root"]
+    scene_units = _split_oversize(scene_units)
+    shared = _split_oversize(shared)
     bins = ffd_pack(scene_units + shared)
     if len(bins) <= 1:                       # whole dataset fits one asset
         units = bins[0]["units"] if bins else []
@@ -340,13 +380,16 @@ def write_manifest():
         key = tag2key.get(info["tag"])
         if key is None:
             continue
+        et = EXTRACT_TO.get(key, "ds")
         d = datasets.setdefault(key, dict(
             tag=info["tag"], description=DATASETS[key]["description"],
-            provenance=DATASETS[key]["provenance"], total_bytes=0, assets=[]))
+            provenance=DATASETS[key]["provenance"], extract_to=et,
+            total_bytes=0, assets=[]))
         d["total_bytes"] += info["size"]
         d["assets"].append(dict(name=asset, tag=info["tag"], bytes=info["size"],
                                 sha256=info["sha256"], format=info["format"],
-                                path_root=info["path_root"], scenes=info["scenes"]))
+                                path_root=info["path_root"], extract_to=et,
+                                scenes=info["scenes"]))
         for s in info["scenes"]:
             scene_index.setdefault(s, []).append(dict(dataset=key, asset=asset))
     for d in datasets.values():
@@ -384,7 +427,7 @@ def main():
         return
 
     # publish smallest-first so the long pole (depths-raw) runs last
-    order = ["rs-dtu", "dtu", "llff", "mvs-training", "depths-raw"]
+    order = ["rs-dtu", "dtu", "llff", "mvs-training", "depths-raw", "finetuning"]
     if args.all:
         targets = order
     elif args.dataset:
